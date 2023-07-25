@@ -16,3 +16,4 @@ def func_3():
 print(calcular_total([10, 20, 34]))  # 64
 print(retorna_antecessor_sucessor(10))  # (9, 11)
 print(func_3())  # None
+
