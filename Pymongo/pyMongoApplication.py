@@ -4,7 +4,7 @@ import datetime
 import pprint
 
 client = MongoClient(
-    "mongodb+srv://snamuelfilho2011:X4r4Ahv69Ue5wi39@cluster0.igugwrj.mongodb.net/?retryWrites=true&w=majority"
+
 )
 
 db = client.test
