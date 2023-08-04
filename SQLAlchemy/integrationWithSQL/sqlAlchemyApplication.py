@@ -1,3 +1,7 @@
+"""
+ Primeiro Programa de integração com banco de dados
+ utilizando SQLAlchemy e modelo ORM
+"""
 from sqlalchemy import Column, func
 from sqlalchemy import inspect
 from sqlalchemy import Integer
@@ -13,6 +17,10 @@ Base = declarative_base()
 
 
 class User(Base):
+    """
+        Esta classe representa a tabela user_account dentro do
+        SQlite
+    """
     __tablename__ = "user_account"
 
     # Atributos
